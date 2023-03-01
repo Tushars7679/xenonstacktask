@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #8a2be2, #3cba92);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.remember-me {
+  margin-top: 10px;
+}
+
+.remember-me label {
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background: #48c6ef;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background: #fff;
+  color: #333;
+}
+
+a {
+  color: #008cba;
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.other-options {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.other-options p {
+  font-size: 14px;
+}
+
+.google-btn,
+.fb-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.google-btn i,
+.fb-btn i {
+  margin-right: 10px;
+}
+
+.google-btn:hover,
+.fb-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.sign-up {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign-up p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.pink {
+  background: #ff69b4;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pink:hover {
+  background: linear-gradient(to bottom, #ff63a9, #ff69b4);
+}
